@@ -21,23 +21,6 @@ The project compares different integration strategies and includes two robust ap
 
 ---
 
-## 📁 Directory Structure (example)
-```
-project/
-├── sample_1/                         # Raw matrix input
-├── sample_2/
-├── GSE132771_RAW/                   # Batch correction script dataset
-│   ├── NML_I/                       # Replicate 1
-│   ├── NML_II/
-│   ├── NML_III/
-├── scRNAseq_pipeline.Rmd            # Harmony + SingleR pipeline
-├── batch_correction_CCA.R           # CCA integration script
-├── top_markers.csv                  # Output marker genes
-└── README.md
-```
-
----
-
 ## 📑 Workflow Summary
 
 ### ✨ Main Pipeline (`scRNAseq_pipeline.Rmd`)
