@@ -52,13 +52,9 @@ The analysis includes:
 
 ```text
 scRNAseq_analysis/
-├── README.Rmd
 ├── README.md
 ├── scripts/
 │   └── run_scrna_analysis.R
-├── sample/
-│   ├── sample_1/
-│   └── sample_2/
 ├── results/
 │   ├── figures/
 │   │   ├── qc/
@@ -69,12 +65,9 @@ scRNAseq_analysis/
 │   ├── tables/
 │   │   ├── markers/
 │   │   └── annotation/
-│   ├── objects/
 │   └── logs/
 └── .gitignore
 ```
-
-Large raw data files and generated `.rds` objects should not be committed to GitHub. The generated PNG figures and small CSV summary tables can be committed so the README renders as a project page.
 
 ---
 
@@ -100,15 +93,6 @@ barcodes.tsv.gz
 features.tsv.gz
 matrix.mtx.gz
 ```
-
-or equivalent Cell Ranger filtered matrix files.
-
-To regenerate the GitHub README from this file:
-
-```r
-rmarkdown::render("README.Rmd")
-```
-
 ---
 
 ## Key Outputs
