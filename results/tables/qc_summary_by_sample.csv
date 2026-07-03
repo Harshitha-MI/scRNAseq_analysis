@@ -1,5 +1,0 @@
-"sample","stage","n_cells","median_nFeature_RNA","median_nCount_RNA","median_percent_mt"
-"sam1","before_qc",11009,1010,2894,10.8945969884854
-"sam1","after_qc",6509,860,1520,6.26896602768115
-"sam2","before_qc",7812,1224,3721.5,7.62237633073557
-"sam2","after_qc",5806,1307,3428,6.60936796168113
