@@ -79,7 +79,7 @@ create and activate the conda environment:
 
 ```bash
 conda env create -f environment.yml
-conda activate scrnaseq-seur
+conda activate scrnaseq-seurat
 ```
 
 ```bash
