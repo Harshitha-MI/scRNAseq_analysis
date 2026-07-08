@@ -75,6 +75,13 @@ scRNAseq_analysis/
 
 From the repository root:
 
+create and activate the conda environment:
+
+```bash
+conda env create -f environment.yml
+conda activate scrnaseq-seur
+```
+
 ```bash
 Rscript scripts/run_scrna_analysis.R
 ```
