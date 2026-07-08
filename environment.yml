@@ -1,0 +1,31 @@
+name: scrnaseq-seurat
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # Core R
+  - r-base=4.3
+
+  # Main scRNA-seq workflow
+  - r-seurat
+  - r-seuratobject
+  - r-harmony
+
+  # Plotting and data manipulation
+  - r-ggplot2
+  - r-dplyr
+  - r-patchwork
+
+  # SingleR annotation
+  - bioconductor-singler
+  - bioconductor-celldex
+
+  # Useful dependencies for Seurat / matrices / plotting
+  - r-matrix
+  - r-uwot
+  - r-irlba
+  - r-future
+  - r-future.apply
+
+  # Reproducibility / diagnostics
+  - r-sessioninfo
