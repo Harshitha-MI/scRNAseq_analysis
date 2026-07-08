@@ -22,7 +22,7 @@ Samples used:
 - **GSM8162620** — Patient 3 ascites scRNA-seq sample 1
 - **GSM8162621** — Patient 3 ascites scRNA-seq sample 2
 
-For this workflow demonstration, these two samples are treated as replicate 10x Genomics-style scRNA-seq inputs. This repository does **not** attempt to reproduce the full biological conclusions of the original publication. Instead, it uses selected public samples to demonstrate a reproducible single-cell RNA-seq analysis workflow.
+For this workflow demonstration, these two samples are used as two public 10x Genomics-style libraries from the same patient/sample context to demonstrate multi-sample scRNA-seq processing, integration, clustering, and annotation. This repository does **not** attempt to reproduce the full biological conclusions of the original publication. Instead, it uses selected public samples to demonstrate a reproducible single-cell RNA-seq analysis workflow.
 
 ---
 
